@@ -1,8 +1,8 @@
-"""
-PDF Merger
-Automatically finds every PDF file in the current directory (excluding its
-own previous output) and merges them into a single file, in alphabetical order.
-"""
+
+#PDF Merger
+#Automatically finds every PDF file in the current directory.
+#and merges them into a single file, in alphabetical order.
+
 
 import os
 from pypdf import PdfWriter
